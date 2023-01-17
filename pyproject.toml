@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "logs-unit-tests"
+version = "0.1.0"
+description = ""
+authors = ["XyzzyZ4p <xyzzyzap@gmail.com>"]
+readme = "README.md"
+packages = [{include = "logs_unit_tests"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiohttp = "^3.8.3"
+pytest = "^7.2.1"
+pytest-asyncio = "^0.20.3"
+pytest-mock = "^3.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
