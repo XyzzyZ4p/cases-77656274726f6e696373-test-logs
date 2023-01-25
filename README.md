@@ -8,3 +8,7 @@
             async with session.get(f"http://xx/containers/{cont}/logs?follow=1&stdout=1") as resp:
                 async for line in resp.content:
                     print(name, line)
+
+# Решение:
+
+Реализованы тесты, используещие mock объекты
